@@ -182,9 +182,26 @@ main {
     opacity: 1;
     transform: translateY(0);
     transition: opacity .4s, transform .4s ease;
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: .8rem;
+    }
+
+    i {
+        font-size: 2rem;
+    }
+
+    button {
+        border: none;
+        background: none;
+        color: var(--always-white);
+        cursor: pointer;
+    }
 }
 
 .hide-warning {
     opacity: 0;
-    transform: translateY(-10px);
+    transform: translateY(-10px);  
 }
