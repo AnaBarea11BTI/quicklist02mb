@@ -71,6 +71,7 @@ function checkItem(itemName) {
      //  item.checked = true
      //}
 
+     
      //item.checked ? item.checked = false : item.checked = true   
 
      item.checked = !item.checked
